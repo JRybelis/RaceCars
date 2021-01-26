@@ -1,7 +1,7 @@
 
 package racecars;
 
-public class RaceCars {
+public class RaceCarsPrimitiveArrays {
 
     public static void main(String[] args) {
         int[] cars = new int[8];
