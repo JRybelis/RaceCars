@@ -34,8 +34,8 @@ public class RegularCar {
     }
     
     public String toString() {
-        return "RaceCar{" + "name=" + name + ", maxSpeed=" + maxSpeed +
-                ", distance=" + distance + ", speed=" + speed + '}';
+        return "RaceCar{" + "name = " + name + ", maxSpeed = " + maxSpeed +
+                ", distance = " + distance + ", speed = " + speed + '}';
     }
 }
 
