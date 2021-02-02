@@ -12,18 +12,18 @@ public class SportsCar extends RegularCar {
     public void spoilerRelease() {
         this.spoiler = !this.spoiler;
     }
-    public void hitAccelerator(int howMuch) {
+    public void accelerate(int howMuch) {
         if(!this.spoiler) {
-            super.hitAccelerator(howMuch * 2);
+            super.accelerate(howMuch * 2);
         } else {
-            super.hitAccelerator(howMuch);
+            super.accelerate(howMuch);
         }
     }
-    public void hitBreaks(int howMuch) {
+    public void brake(int howMuch) {
         if (this.spoiler) {
-            super.hitBreaks(howMuch * 2); 
+            super.brake(howMuch * 2); 
         } else {
-            super.hitBreaks(howMuch);
+            super.brake(howMuch);
         }
     }
     public String toString() {

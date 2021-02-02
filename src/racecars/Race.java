@@ -25,9 +25,9 @@ public class Race {
                 }
                 double stateChange = Math.random();
                 if (stateChange < 0.3) {
-                    racers[i].hitBreaks((int) (Math.random() * 5 + 1));
+                    racers[i].brake((int) (Math.random() * 5 + 1));
                 } else if (stateChange < 0.8) {
-                    racers[i].hitAccelerator((int) (Math.random() * 10 + 1));
+                    racers[i].accelerate((int) (Math.random() * 10 + 1));
                 }
                 racers[i].drive();
             } 

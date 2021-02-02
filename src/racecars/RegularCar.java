@@ -17,13 +17,13 @@ public class RegularCar {
     public int getDistance(){
         return distance;
     }
-    public void hitAccelerator (int howMuch) {
+    public void accelerate (int howMuch) {
         this.speed += howMuch;
         if (this.speed > this.maxSpeed) {
             this.speed = this.maxSpeed;
         }
      }
-    public void hitBreaks (int howMuch) {
+    public void brake (int howMuch) {
         this.speed -= howMuch;
         if (this.speed < 0) {
             this.speed = 0;
