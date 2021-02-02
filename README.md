@@ -3,7 +3,7 @@
 
 ![forthebadgeLicence](https://img.shields.io/github/license/JRybelis/RaceCars?color=red&style=flat-square)
 ![forthebadgeContributors](https://img.shields.io/github/contributors/JRybelis/RaceCars?style=flat-square) <br>
-![forthebadgeJava](https://forthebadge.com/images/badges/made-with-java.svg)
+![forthebadgeJava](https://forthebadge.com/images/badges/made-with-java.svg) <br>
 ![forthebadgeOfficeSpace](https://forthebadge.com/images/badges/compatibility-pc-load-letter.svg)
 
 > The project shows two console programs, which run a text-based 1000km car race. The first one uses arrays, while the second program employs objects. 
@@ -11,4 +11,9 @@ The first car to reach the 1000km mark wins, with the program printing the final
 <hr>
 
 ## Array-implemented race:
-A number of race participants is set as a value of items in the array. Each item in the array (race car) goes through a _for_ loop cycle when its distance covered in that cycle (between 1km and 10km) is determined by a _Math.random_ method. Each time the first car passes a 1/10th of the race distance, the program logs the leader in the console output field. 
+A number of race participants is set as a value of items in the array. Each item in the array (race car) goes through a _for_ loop cycle when its distance covered in that cycle (between 1km and 10km) is determined by a _Math.random_ method. Each time the first car passes a 1/10th of the race distance, the program logs the leader in the console output field: 
+![Interval](https://github.com/JRybelis/RaceCars/blob/master/img/arraysRaceIntervals.png)
+
+Whenever the first car crosses the 1000km in a loop cycle, all the other cars are also allowed to finish their cycle and the car, which both crosses the finish line and travels the furthest past it in that cycle, wins:
+![Interval](https://github.com/JRybelis/RaceCars/blob/master/img/arraysRaceFinish.png)
+ 
