@@ -50,18 +50,23 @@ cycle.
 
 Each time a race participant crosses a 100km mark, the program prints out the 
 interim results: 
-![Interval]()
+
+![Interval](https://github.com/JRybelis/RaceCars/blob/master/img/objectsRaceIntervals.png)
 
 Whenever the first car crosses the 1000km mark in a loop cycle, all the other 
 cars are also allowed to finish their cycle, and the car, which both crosses 
 the finish line and travels the furthest past it in that cycle, wins:
 | One car covers the 1000km distance and wins | Two cars cover the 1000km distance, the winner drove the furthest |
 |----------------|----------------|
-|![FinishClearLead]()|![FinishWithCloseSecond]()|
+|![FinishClearLead](https://github.com/JRybelis/RaceCars/blob/master/img/objectsRaceFinish.png)|![FinishWithCloseSecond](https://github.com/JRybelis/RaceCars/blob/master/img/objectsRaceFinishClose.png)|
 
 As soon as the winner is determined, the race finishes and the array items (race 
 participants) are sorted descending, based on the distance they covered:
 
-![FinalResults]()
+![FinalResults](https://github.com/JRybelis/RaceCars/blob/master/img/objectsRaceFinalResults.png)
 
 ***
+
+## License
+
+This code is licenced under the ["MIT"](https://github.com/JRybelis/RaceCars/blob/master/LICENSE) @ ["JRybelis"](https://github.com/JRybelis)
